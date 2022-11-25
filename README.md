@@ -1,2 +1,9 @@
 # windows11-Set-Up-Chocolatey
-Makeing devlopment environment for datascience with chocolatry in windows11
+Makeing devlopment environment with chocolatry in windows11
+
+# Goals
++ Google Chrome
++ VS Code Editor
++ Python with pyenv and poetry
++ NodeJS
++ WSL
