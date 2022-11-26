@@ -1,5 +1,5 @@
 # windows11-Set-Up-Chocolatey
-Makeing devlopment environment with chocolatry in windows11  
+Making devlopment environment with chocolatry in windows11  
 This tutorial is for datascientists mainly
 
 ## What is Chocolatey
