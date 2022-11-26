@@ -252,7 +252,8 @@ Details here -> https://community.chocolatey.org/packages/git
 ```
 choco install anaconda3 -y
 ```
-4. Open Environment variables and Open Path in "System variables" at bottom
+4. Open Environment variables and Open Path in "System variables"
+5. Add Paths at bottom like this
    ```
    ...
    ...
@@ -264,4 +265,7 @@ choco install anaconda3 -y
    C:\tools\Anaconda3\Scripts
    ```
 6. Exit your powershell, and reopen powershell or cmd
-7. 
+7. Check conda works fine
+```
+conda --version
+```
