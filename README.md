@@ -37,7 +37,16 @@ Looking here -> https://www.itechguides.com/how-to-change-default-browser-in-win
 Details here -> https://community.chocolatey.org/packages/vscode  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
-```choco install vscode -y```
+```choco install vscode -y``` or ```code --version```
 3. Exit your powershell, and reopen powershell or cmd
 4. Check your vscode works fine(Copy and Paste)  
 ```code .```
+
+## Git
+Details here -> https://community.chocolatey.org/packages/git  
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```choco install git -y```
+3. Exit your powershell, and reopen powershell or cmd
+4. Check your git works fine(Copy and Paste)  
+```git --version```
