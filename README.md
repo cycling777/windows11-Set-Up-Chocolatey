@@ -9,7 +9,7 @@ For more infomation see here -> https://chocolatey.org/
 
 ## Goals
 + Google Chrome
-+ VS Code Editor
++ VSCode Editor
 + Git
 + Docker
 + Python with pyenv and poetry
@@ -29,6 +29,15 @@ Details are here -> https://chocolatey.org/install
 Details here -> https://community.chocolatey.org/packages/GoogleChrome  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
-```choco install googlechrome```
+```choco install googlechrome -y```
 3. (Optional) Set Default Browser to Chrome  
 Looking here -> https://www.itechguides.com/how-to-change-default-browser-in-windows-11/
+
+## VSCode
+Details here -> https://community.chocolatey.org/packages/vscode  
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```choco install vscode -y```
+3. Exit your powershell, and reopen powershell or cmd
+4. Check your vscode works fine(Copy and Paste)  
+```code .```
