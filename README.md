@@ -113,12 +113,11 @@ pyenv install 3.9.13
 14. Check current python version works fine  
 ```pyenv version```
 
-### poetry part(Not Using chocolatey)
+### poetry part(Not using chocolatey)
 Details here -> https://python-poetry.org/docs/  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
-```(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-```
+```(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -```
 3. Open Environment variables and Open User Path
    - When you open User Path variables, maybe looks like Before.
      ```
@@ -142,3 +141,11 @@ Details here -> https://python-poetry.org/docs/
 4. Reopen administrative shell
 5. Check poetry works fine
 ```poetry --version```
+
+## WSL (Not using chocolatey)
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```wsl --install```
+3. 
+
+## docker
