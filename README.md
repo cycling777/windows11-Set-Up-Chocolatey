@@ -74,6 +74,52 @@ choco install git -y
 git --version
 ```
 
+## WSL + Docker
+### WSL part(Not using chocolatey)
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```
+wsl --install
+```
+3. Rstart Computer(Copy and Paste)  
+```
+Restart-Computer
+```
+4. When your PC restarts, ubuntu shell will open automatically. Enter username and password.
+5. Exit Ubuntu shell
+6. Open powershell or cmd, and check wsl works fine.
+```
+wsl --version
+```
+or
+```
+wsl
+```
+
+### Docker part
+Details here -> https://community.chocolatey.org/packages/docker-desktop, https://community.chocolatey.org/packages/docker-compose  
+1. First, ensure that you are using an administrative "cmd shell" - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```
+choco install docker desktop -y
+```
+3. Refresh Environment Variables on the cmd
+```
+refreshenv
+```
+4. Check docker works fine
+```
+docker --version
+```
+5. Install docker-compose
+```
+choco install docker-compose -y
+```
+6. check docker-compose works fine
+```
+docker-compose --version
+```
+
 ## Node.js(LTS)
 Details here -> https://community.chocolatey.org/packages/nodejs-lts  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.  
@@ -114,7 +160,9 @@ choco install pyenv-win -y
      Before 
  
      %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
-     C:\Users\YOUR NAME\AppData\Roaming\npm
+     ...
+     ...
+     ...
      %USERPROFILE%\.pyenv\pyenv-win\bin
      %USERPROFILE%\.pyenv\pyenv-win\shims
      ```
@@ -124,7 +172,9 @@ choco install pyenv-win -y
 
      %USERPROFILE%\.pyenv\pyenv-win\bin
      %USERPROFILE%\.pyenv\pyenv-win\shims
-     C:\Users\YOUR NAME\AppData\Roaming\npm
+     ...
+     ...
+     ...
      %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
      ```
     
@@ -172,7 +222,9 @@ Details here -> https://python-poetry.org/docs/
 
      %USERPROFILE%\.pyenv\pyenv-win\bin
      %USERPROFILE%\.pyenv\pyenv-win\shims
-     C:\Users\YOUR NAME\AppData\Roaming\npm
+     ...
+     ...
+     ...
      %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
      ```
    - Change the order to After
@@ -182,41 +234,13 @@ Details here -> https://python-poetry.org/docs/
      %USERPROFILE%\.pyenv\pyenv-win\bin
      %USERPROFILE%\.pyenv\pyenv-win\shims
      %APPDATA%\Python\Scripts
-     C:\Users\YOUR NAME\AppData\Roaming\npm
+     ...
+     ...
+     ...
      %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
      ```
 4. Reopen administrative shell
 5. Check poetry works fine
 ```
 poetry --version
-```
-
-## WSL + Docker
-### WSL part(Not using chocolatey)
-1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
-2. Install with powershell.exe(Copy and Paste)  
-```
-wsl --install
-```
-3. Rstart Computer(Copy and Paste)  
-```
-Restart-Computer
-```
-4. When your PC restarts, ubuntu shell will open automatically. Enter username and password.
-5. Exit Ubuntu shell
-6. Open powershell or cmd, and check wsl works fine.
-```
-wsl --version
-```
-or
-```
-wsl
-```
-
-### docker part
-Details here -> https://community.chocolatey.org/packages/docker-desktop
-1. First, ensure that you are using an administrative "cmd shell" - you can also install as a non-admin, check out Non-Administrative Installation.
-2. Install with powershell.exe(Copy and Paste)  
-```
-choco install docker desktop -y
 ```
