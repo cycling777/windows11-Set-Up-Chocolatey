@@ -264,7 +264,7 @@ choco install anaconda3 -y
    C:\tools\Anaconda3\Library\bin
    C:\tools\Anaconda3\Scripts
    ```
-6. Exit your powershell, and reopen powershell or cmd
+6. Exit your shell, and reopen powershell or cmd
 7. Check conda works fine
 ```
 conda --version
