@@ -1,8 +1,8 @@
 # windows11-Set-Up-Chocolatey
 Makeing devlopment environment with chocolatry in windows11  
-This tutorial is for datascientists and front-end engineers
+This tutorial is for datascientists mainly
 
-## What is Chacolatey
+## What is Chocolatey
 Chocolatey is the package manager for windows like apt or brew.  
 With setting up your Windows11 PC, you can easily manage packages like Linux.  
 For more infomation see here -> https://chocolatey.org/
@@ -154,7 +154,7 @@ choco install pyenv-win -y
    - Click Apps and choose Advanced app settings
    - Click execution aliases
    - Trun off both "App installer" python.exe and python3.exe
-4. Open Environment variables and Open User Path
+4. Open Environment variables and Open Path in "User Valiables"
    - When you open User Path variables, maybe looks like Before.
      ```
      Before 
@@ -215,7 +215,7 @@ Details here -> https://python-poetry.org/docs/
 ```
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
 ```
-3. Open Environment variables and Open User Path
+3. Open Environment variables and Open Path in "User Valiables"
    - When you open User Path variables, maybe looks like Before.
      ```
      Before
@@ -244,3 +244,24 @@ Details here -> https://python-poetry.org/docs/
 ```
 poetry --version
 ```
+
+##Anaconda
+Details here -> https://community.chocolatey.org/packages/git  
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```
+choco install anaconda3 -y
+```
+4. Open Environment variables and Open Path in "System variables" at bottom
+   ```
+   ...
+   ...
+   ...
+   C:\tools\Anaconda3\Library
+   C:\tools\Anaconda3\Library\mingw-w64
+   C:\tools\Anaconda3\Library\usr\bin
+   C:\tools\Anaconda3\Library\bin
+   C:\tools\Anaconda3\Scripts
+   ```
+6. Exit your powershell, and reopen powershell or cmd
+7. 
