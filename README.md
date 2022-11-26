@@ -1,5 +1,6 @@
 # windows11-Set-Up-Chocolatey
-Makeing devlopment environment with chocolatry in windows11
+Makeing devlopment environment with chocolatry in windows11  
+This tutorial is for datascientists and front-end engineers
 
 ## What is Chacolatey
 Chocolatey is the package manager for windows like apt or brew.  
@@ -8,13 +9,18 @@ For more infomation see here -> https://chocolatey.org/
 
 
 ## Goals
-+ Google Chrome
-+ VSCode Editor
-+ Git
-+ Node.js
-+ Python(pyenv + poetry)
-+ WSL
-+ Docker
+- For everyone
+  - Google Chrome
+- For every developers
+  - VSCode
+  - Git
+  - WSL + Docker
+- For js/ts engineers
+  - Node.js
+- For python engineers
+  - Python(pyenv + poetry)
+  - Anaconda
+
 
 ## Install Chocolatey
 Details are here -> https://chocolatey.org/install
@@ -142,10 +148,11 @@ Details here -> https://python-poetry.org/docs/
 5. Check poetry works fine
 ```poetry --version```
 
-## WSL (Not using chocolatey)
+## WSL + Docker
+### WSL part(Not using chocolatey)
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
 ```wsl --install```
 3. 
 
-## docker
+## docker 
