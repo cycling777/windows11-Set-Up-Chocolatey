@@ -162,7 +162,9 @@ pyenv version
 Details here -> https://python-poetry.org/docs/  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
-```(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -```
+```
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+```
 3. Open Environment variables and Open User Path
    - When you open User Path variables, maybe looks like Before.
      ```
@@ -211,4 +213,10 @@ or
 wsl
 ```
 
-## docker 
+### docker part
+Details here -> https://community.chocolatey.org/packages/docker-desktop
+1. First, ensure that you are using an administrative "cmd shell" - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```
+choco install docker desktop -y
+```
