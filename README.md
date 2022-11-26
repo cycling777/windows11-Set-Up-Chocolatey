@@ -52,7 +52,7 @@ Details here -> https://community.chocolatey.org/packages/git
 ```git --version```
 
 ## Node.js(LTS)
-Details here -> https://community.chocolatey.org/packages/git  
+Details here -> https://community.chocolatey.org/packages/nodejs-lts  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
 ```choco install nodejs-lts -y```
@@ -61,7 +61,7 @@ Details here -> https://community.chocolatey.org/packages/git
 ```node --version``` and ```npm --version``` and ```npx --version```
 
 ## Python(pyenv)
-Details here -> https://community.chocolatey.org/packages/git  
+Details here -> https://community.chocolatey.org/packages/pyenv-win  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
 ```choco install pyenv-win -y```
@@ -80,7 +80,7 @@ Details here -> https://community.chocolatey.org/packages/git
  %USERPROFILE%\.pyenv\pyenv-win\bin
  %USERPROFILE%\.pyenv\pyenv-win\shims
  ```
-  + Please change the order to After
+  + Change the order to After
 ```
  After
 
@@ -93,3 +93,20 @@ Details here -> https://community.chocolatey.org/packages/git
 6. Exit your powershell, and reopen cmd (not powershell!!)
 7. Check your pyenv works fine(Copy and Paste)  
 ```pyenv --version```
+8. Check python versions you can choose
+``` pyenv install --list```
+10. Deside python version you need
+11. Install Python you want (I installed 3.10.5 and 3.9.13)
+```
+pyenv install 3.10.5
+pyenv install 3.9.13
+```
+12. Check the versions of python you installed
+```pyenv versions```
+13. Set python version use globaly or current folda
+  + On globaly use
+```pyenv global 3.10.5 ```
+  + On current folda use (If you set local, local version has priority on the folda)
+```pyenv local 3.9.13```
+14. Check current python version
+```pyenv version```
