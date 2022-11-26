@@ -11,10 +11,10 @@ For more infomation see here -> https://chocolatey.org/
 + Google Chrome
 + VSCode Editor
 + Git
-+ Docker
-+ Python with pyenv and poetry
 + NodeJS
++ Python with pyenv and poetry
 + WSL
++ Docker
 
 ## Install Chocolatey
 Details are here -> https://chocolatey.org/install
@@ -50,3 +50,12 @@ Details here -> https://community.chocolatey.org/packages/git
 3. Exit your powershell, and reopen powershell or cmd
 4. Check your git works fine(Copy and Paste)  
 ```git --version```
+
+## Node.js(LTS)
+Details here -> https://community.chocolatey.org/packages/git  
+1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
+2. Install with powershell.exe(Copy and Paste)  
+```choco install nodejs-lts -y```
+3. Exit your powershell, and reopen powershell or cmd
+4. Check your git works fine(Copy and Paste)  
+```node --version``` and ```npm --version``` and ```npx --version```
