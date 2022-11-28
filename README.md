@@ -245,7 +245,7 @@ Details here -> https://python-poetry.org/docs/
 poetry --version
 ```
 
-##Anaconda
+## Anaconda
 Details here -> https://community.chocolatey.org/packages/git  
 1. First, ensure that you are using an administrative shell - you can also install as a non-admin, check out Non-Administrative Installation.
 2. Install with powershell.exe(Copy and Paste)  
